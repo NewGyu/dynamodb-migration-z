@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+"use strict";
+
+const commander = require("commander");
+
+commander.command("db:migrate")
+  .description("apply migrations")
+  .action(()=>{
+
+  });
+commander.command("db:migrate:undo")
+  .description("rollback to previous migration version")
+  .action(()=>{
+    
+  });
+commander.command("version")
+  .description("show current version")
+  .action(()=>{
+    
+  });
